@@ -1,7 +1,7 @@
 import { links } from "../assets/constants";
 
-const SidebarItem = ({icon, title}) => (
-  <div className="flex  items-center h-[40.41px]">
+export const SidebarItem = ({icon, title}) => (
+  <div className="flex  items-center min-w-[210px] hover:bg-halfblack pl-[11px] py-[2.79px] transition-all delay-75 duration-150 ease-out cursor-pointer rounded-xl">
     <img src={icon} />
     <span className="text-secondary">{title}</span>
   </div>
