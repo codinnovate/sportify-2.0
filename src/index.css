@@ -6,9 +6,13 @@
 
 
 * {
+  
   transition: all 0.3secs ease;
-  font-family: "Plus Jakarta Sans", serif;
+  font-family: "Plus Jakarta Sans", serif; 
+  color:"#898989"; 
+
 }
+
 /* Active Navigation Link */
 .active {
   @apply text-cyan-500;

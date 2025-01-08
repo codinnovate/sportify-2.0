@@ -14,10 +14,9 @@ export default function Header (){
             />
         ))}
         </div>
-        <div className="">
         <Searchbar />
+        <div className='w-10 h-5 bg-green-600 '>
         </div>
-
         </header>
     )
 

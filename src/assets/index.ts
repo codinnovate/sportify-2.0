@@ -9,9 +9,10 @@ import albumeIcon from './albumsIcon.svg';
 import folderIcon from './foldersIcon.svg';
 import discoverIcon from './discoverIcon.svg';
 import myLibIcon from './homeIcon.svg';
-
+import searchIcon from './searchIcon.svg';
 
 export default {
+  searchIcon,
   playlistIcon,
   likedIcon,
   myLibIcon,

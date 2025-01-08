@@ -7,7 +7,8 @@ module.exports = {
         black: '#111111',
         secondary:"#898989",
         primary:"#e0e0e0",
-        halfblack:"#202020"
+        halfblack:"#202020",
+        grey:"#898989",
       },
       animation: {
         slideup: 'slideup 1s ease-in-out',

@@ -7,14 +7,14 @@ import { ArtistDetails, TopArtists, AroundYou, Discover, Search, SongDetails, To
 const App = () => {
   const { activeSong } = useSelector((state) => state.player);
 
+
+
   return (
     <div className="relative flex bg-black">
       <Sidebar />
-      <div className="flex-1 flex flex-col bg-gradient-to-br from-black to-[#121286]">
-        <Header />
-        <Searchbar />
-
-        <div className="px-6 h-[calc(100vh-72px)] overflow-y-scroll hide-scrollbar flex xl:flex-row flex-col-reverse">
+      <div className="flex-1 flex flex-col ">
+        <Header />       
+        <div className="px-6 h-[calc(100vh-72px)] bg-gradient-to-br border-[#202020] border-2 rounded-[10px] overflow-y-scroll hide-scrollbar flex xl:flex-row flex-col-reverse ">
           <div className="flex-1 h-fit pb-40">
             <Routes>
               <Route path="/" element={<Discover />} />
@@ -30,6 +30,7 @@ const App = () => {
             <TopPlay />
           </div>
         </div>
+
       </div>
 
       {activeSong?.title && (
