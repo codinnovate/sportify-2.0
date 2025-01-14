@@ -4,7 +4,7 @@ import { SidebarItem } from "./Sidebar";
 
 export default function Header (){
     return (
-        <header className="h-[54px] flex items-center bg-black justify-between">
+        <header className="hidden h-[54px] md:flex items-center bg-black justify-between">
         <div className="flex">
         {links.slice(0,2).map((link, index) => (
             <SidebarItem 

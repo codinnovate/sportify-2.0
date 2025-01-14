@@ -3,6 +3,7 @@ import { Route, Routes } from 'react-router-dom';
 
 import { Searchbar, Sidebar, MusicPlayer, TopPlay , Header} from './components';
 import { ArtistDetails, TopArtists, AroundYou, Discover, Search, SongDetails, TopCharts } from './pages';
+import BottomBar from './components/BottomBar';
 
 const App = () => {
   const { activeSong } = useSelector((state) => state.player);
@@ -11,6 +12,7 @@ const App = () => {
 
   return (
     <div className="relative flex bg-black">
+     
       <Sidebar />
       <div className="flex-1 flex flex-col ">
         <Header />       
@@ -38,6 +40,7 @@ const App = () => {
           <MusicPlayer />
         </div>
       )}
+       <BottomBar />
     </div>
   );
 };
