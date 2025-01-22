@@ -10,6 +10,12 @@ import folderIcon from './foldersIcon.svg';
 import discoverIcon from './discoverIcon.svg';
 import myLibIcon from './homeIcon.svg';
 import searchIcon from './searchIcon.svg';
+import bellIcon from './bellIcon.svg';
+import lockIcon from './lock.svg';
+import personIcon from './person.svg';
+import cogIcon from './cog.svg';
+import avatarIcon from './avatarIcon.svg';
+
 
 export default {
   searchIcon,
@@ -24,4 +30,9 @@ export default {
   pinIcon,
   homeIcon,
   loader,
+  bellIcon,
+  lockIcon,
+  personIcon,
+  cogIcon,
+  avatarIcon,
 };
